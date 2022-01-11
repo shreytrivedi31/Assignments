@@ -37,5 +37,6 @@ select * from Student order by age;
 
 select * from Student where age = 21 or id=3;
 update Student set name = 'cooper' where name = 'sheldon';
+delete from Student where name='shreyansh';
 
 select * from Student
