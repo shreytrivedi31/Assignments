@@ -1,0 +1,20 @@
+--find--
+
+db.products.find()
+
+db.products.find({category: 'shoes'})
+
+db.products.find().limit(2)
+
+db.products.find().forEach(function(doc) { print('name: '+doc.price)})
+
+db.products.findOne({category:'shoes'})
+
+db.products.createIndex({name:1})
+
+
+--Added index to name--
+
+db.products.createIndex({name:1})
+
+db.products.getIndex();
