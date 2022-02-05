@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    
+    <style>
+        .product_img{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    
+                <h1>Add Product</h1>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                   
+                    
+                    <div>
+                        <label for="product">Product Name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    
+                    <div>
+                        <label for="productImage">Product Image</label>
+                        <input type="file" name="productImage" id="productImage">
+                        <div id="display_Image">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="productDes">Product Description</label>
+                        <input type="text" name="productDes" id="productDes">
+                    </div>
+                    <div>
+                        <label for="qty">Qty</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Price</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        
+                    </div>
+                </form>
+                <hr>
+                <br>
+                <h2>Product List</h2>
+
+                
+                    <table class="list" id="storeList">
+                        
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Product Image
+                                    
+                                </th> 
+                                <th>Description</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+               
+                <hr>
+                <br>
+                <h3>Cart </h3>
+
+                
+                    <table onsubmit="onBuy()" class="list" id="cartList">
+                        
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Product Image
+                                    
+                                </th> 
+                                <th>Description</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                
+            
+    <script type="text/javascript" src="new.js"></script>
+</body>
+</html>
