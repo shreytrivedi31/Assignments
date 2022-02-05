@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "shrey",
+    "password": "shrey",
+    "gender": "male",
+    "birthdate": "31/12/2000",
+    "age": "21",
+    "country": "india",
+    "phone": "9126673737"
+  },
+  {
+    "id": "2",
+    "birthdate": "08/05/2000"
+  },
+  {
+    "id": "4",
+    "name": "nirmal",
+    "password": "nirmal",
+    "gender": "male",
+    "birthdate": "31/12/2000",
+    "age": "21",
+    "country": "india",
+    "phone": "9126673737"
+  },
+  {
+    "id": "5",
+    "name": "aatish",
+    "password": "aatish",
+    "gender": "male",
+    "birthdate": "31/12/2000",
+    "age": "21",
+    "country": "india",
+    "phone": "9126673737"
+  }
+]
